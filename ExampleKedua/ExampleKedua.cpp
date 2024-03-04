@@ -13,7 +13,7 @@ int main()
 	nBilB = rand() % 11;
 	
 	if (nBilA == nBilB) {
-		status = "Bilangannya sama";
+		status = "Bilangan A sama dengan bilangan B";
 	}
 	else if (nBilA > nBilB) {
 		status = "Bilangan A lebih besar dari bilangan B";
@@ -23,4 +23,7 @@ int main()
 		status = "Bilangan A lebih kecil dari bilangan B";
 	}
 
+	cout << "Bilangan A =" << nBilA << endl;
+	cout << "Bilangan B =" << nBilB << endl;
+	cout << "Status bilangan =" << status << endl;
 }
